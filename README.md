@@ -1,6 +1,10 @@
-# ChatSQL_Frontend
+# Run app
+```bash
+npm install
+npm start
+# or npm run build to build for the best performance.
+```
 
-# Chatbot UI Documentation
 
 ## Demo Video
 [Watch the demo video](https://drive.google.com/file/d/1JeJ2zh6LcwFSOI7x_bckEJkhL8kvNeJI/view?usp=sharing)
