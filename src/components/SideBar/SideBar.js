@@ -85,7 +85,7 @@ const SideBar = ({userInfo, openMessage, currentConversationID ,setCurrentConver
             <Modal title="New Conversation" open={isOpenNewConversationModal} 
             onOk={makeNewConversation} 
             onCancel={handleCancelNewConversation}>
-                <Input defaultValue="New Conversation" 
+                <Input defaultValue={newConversationInfo.ConversationName} 
                 onChange={(e) => setNewConversationInfo({...newConversationInfo, ConversationName: e.target.value})}
                 />
                 <Select
