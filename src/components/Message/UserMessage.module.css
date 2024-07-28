@@ -1,0 +1,40 @@
+.mainContainer {
+
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    width: 100%;
+}
+.userContainerEdit{
+    min-width: 80%;
+}
+.userContainer {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    border-radius: 20px;
+    padding: 10px;
+    background-color: 	#4096ff;
+    max-width: 70%;
+    justify-self: end;
+    justify-items: end;
+}
+.editIcon {
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    cursor: pointer;
+    color: dimgray;
+}
+.editIcon:hover {
+    color: black;
+}
+.editButton {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 0;
+    justify-content: end;
+}

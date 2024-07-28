@@ -1,0 +1,19 @@
+
+.ant-modal-content {
+    max-height: 80vh;
+    overflow-y: scroll;
+    
+}
+
+.ant-modal-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.ant-modal-content {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+body {
+    margin: 0;
+}

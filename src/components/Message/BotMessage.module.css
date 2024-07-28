@@ -1,0 +1,17 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 10px;
+    /* background-color: 	#4096ff; */
+    /* max-width: 70%; */
+    /* justify-self: start; */
+    justify-items: start;
+    position: relative;
+}
+.avatar {
+    position: absolute;
+    left: -30px;
+    top: 10px;
+}

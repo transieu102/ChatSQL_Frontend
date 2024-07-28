@@ -1,0 +1,10 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.sideBar {
+    grid-column: 1;
+}
+.conversation {
+    grid-column: 2;
+}
